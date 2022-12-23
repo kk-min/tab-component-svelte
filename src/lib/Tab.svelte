@@ -3,7 +3,6 @@
 	export let tabName: string = '';
 	function onClick() {
 		activeTab.set(tabName);
-		console.log(tabName);
 	}
 </script>
 
