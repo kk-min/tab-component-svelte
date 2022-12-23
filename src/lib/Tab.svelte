@@ -1,8 +1,9 @@
 <script lang="ts">
 	import { activeTab } from './TabStore';
-	export const tabName = '';
+	export let tabName: string = '';
 	function onClick() {
 		activeTab.set(tabName);
+		console.log(tabName);
 	}
 </script>
 
@@ -13,13 +14,22 @@
 <style>
 	.tab {
 		cursor: pointer;
+		border: 0;
 		border-right: 1px solid var(--color-inactive);
 		border-bottom: 1px solid var(--color-inactive);
+		background: none;
+		box-shadow: none;
+		border-radius: 0;
+		height: 2.5rem;
+		width: 6rem;
+		padding: 5px;
+		color: var(--color-inactive);
 	}
 	.active {
 		cursor: default;
-		border-top: 1px solid var(--color-primary);
+		border-top: 2.5px solid var(--color-primary);
 		border-bottom: none;
 		color: var(--color-secondary);
+		padding-top: 2.5px;
 	}
 </style>
