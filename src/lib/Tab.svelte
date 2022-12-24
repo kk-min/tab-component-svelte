@@ -19,9 +19,9 @@
 		background: none;
 		box-shadow: none;
 		border-radius: 0;
-		height: 2.5rem;
-		width: 6rem;
-		padding: 5px;
+		min-height: 8vh;
+		font-size: 1.5em;
+		padding: 15px 5vw 15px 5vw;
 		color: var(--color-inactive);
 	}
 	.tab:hover {
@@ -30,9 +30,9 @@
 	.active {
 		cursor: default;
 		font-weight: bold;
-		border-top: 2.5px solid var(--color-primary);
+		border-top: 5px solid var(--color-primary);
 		border-bottom: none;
 		color: var(--color-secondary);
-		padding-top: 2.5px;
+		padding: 10px 5vw 15px 5vw;
 	}
 </style>
