@@ -24,8 +24,12 @@
 		padding: 5px;
 		color: var(--color-inactive);
 	}
+	.tab:hover {
+		color: var(--color-secondary);
+	}
 	.active {
 		cursor: default;
+		font-weight: bold;
 		border-top: 2.5px solid var(--color-primary);
 		border-bottom: none;
 		color: var(--color-secondary);
