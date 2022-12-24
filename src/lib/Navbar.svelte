@@ -1,6 +1,6 @@
-<script>
+<script lang="ts">
 	import Tab from './Tab.svelte';
-	const tabs = ['Home', 'Projects', 'Contact'];
+	export let tabs: string[] = ['Home', 'Projects', 'Contact'];
 </script>
 
 <div class="navbar">

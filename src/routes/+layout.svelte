@@ -4,5 +4,5 @@
 	import TabContent from '$lib/TabContent.svelte';
 </script>
 
-<Navbar />
+<Navbar tabs={['About Me', 'Projects', 'Contact']} />
 <TabContent />
